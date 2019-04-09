@@ -7,3 +7,6 @@ Fetching table and column names from `sakila` for auto-completion... Press ^C to
 film_actor b on a.actor_id = b.actor_id 
 inner join inventory c on c.film_id = b.film_id
 
+SELECT actor.actor_id,actor.frist_name,actor.last_name SUM rental FROM actor,rental
+WHERE actor.actor_id = film_actor_actor_id
+
